@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap%22");
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+  }
+
+body {
+    background: #192e3f;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.conteiner{
+    width: 306px;
+    height: 430px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #2f5675;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, rgba(0, 0, 0, 0.75));
+    
+    
+}
+
+
+.conteinerItens{
+    width: 100%;
+    height: 130px;
+    background: url("https://store.cloudflare.steamstatic.com/public/images/v6/home/background_spotlight.jpg");
+    filter: brightness(150%);
+    
+}
+
+.title{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.itens{
+    width: 130px;
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 25px;
+    height: 42.5px;
+}
+
+.percentage{
+   width: 80px;
+   background: #4c6b22;
+   height: 42.5px; 
+   color: #89dbf5;
+   font-size: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.value{
+    width: 80px;
+    background: #0d303f;
+    height: 42.5px;
+    font-size: 15px;
+    
+}
+
+.realValue{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #7193a6;
+}
+
+.discount{
+    font-size: 15px;
+    color: #89dbf5;
+    margin-top: -15px;
+}
+
